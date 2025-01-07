@@ -28,7 +28,10 @@ const Button: React.FC<Properties> = ({
                 border,
                 borderRadius: radius || 0,
                 height,
-                width
+                width,
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center"
             }}
         >
             {children} {}

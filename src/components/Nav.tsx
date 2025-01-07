@@ -1,24 +1,35 @@
 import React from "react";
 import Button from "./Button";
 import styles from "./Nav.module.css";
+import { useNavigate } from "react-router-dom";
 
 const Nav: React.FC<{}> = () => {
+    const navigate = useNavigate();
     return(
         <nav className={styles.navbar}>
             <Button
                 border="none"
                 colour="black"
                 height="40px"
-                onClick={() => console.log("clicked")}
+                onClick={() => navigate("/")}
                 radius="0px"
                 width="80px">
-                    projects
+                    home
                 </Button>
             <Button
                 border="none"
                 colour="black"
                 height="40px"
-                onClick={() => console.log("clicked")}
+                onClick={() => navigate("/about")}
+                radius="0px"
+                width="80px">
+                me
+            </Button>
+            <Button
+                border="none"
+                colour="black"
+                height="40px"
+                onClick={() => navigate("/projects")}
                 radius="0px"
                 width="80px">
                 projects
@@ -27,28 +38,19 @@ const Nav: React.FC<{}> = () => {
                 border="none"
                 colour="black"
                 height="40px"
-                onClick={() => console.log("clicked")}
+                onClick={() => navigate("/game")}
                 radius="0px"
                 width="80px">
-                projects
+                game!
             </Button>
             <Button
                 border="none"
                 colour="black"
                 height="40px"
-                onClick={() => console.log("clicked")}
+                onClick={() => navigate("/contact")}
                 radius="0px"
                 width="80px">
-                projects
-            </Button>
-            <Button
-                border="none"
-                colour="black"
-                height="40px"
-                onClick={() => console.log("clicked")}
-                radius="0px"
-                width="80px">
-                projects
+                contact
             </Button>
         </nav>
     )
