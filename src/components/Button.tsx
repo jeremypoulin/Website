@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Children } from "react";
 import styles from "./Nav.modules.css"
 
 interface Properties {
@@ -8,6 +8,7 @@ interface Properties {
     onClick: () => void;
     radius: string;
     width: string;
+    children?: React.ReactNode;
 }
 
 const Button: React.FC<Properties> = ({
@@ -16,7 +17,8 @@ const Button: React.FC<Properties> = ({
         height,
         onClick,
         radius,
-        width
+        width,
+        children
     }) => {
         return(
         <button
@@ -28,7 +30,9 @@ const Button: React.FC<Properties> = ({
                 height,
                 width
             }}
-        ></button>
+        >
+            {children} {}
+        </button>
     );
 }
 

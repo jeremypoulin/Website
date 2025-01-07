@@ -11,35 +11,45 @@ const Nav: React.FC<{}> = () => {
                 height="40px"
                 onClick={() => console.log("clicked")}
                 radius="0px"
-                width="80px"/>
+                width="80px">
+                    projects
+                </Button>
             <Button
                 border="none"
                 colour="black"
                 height="40px"
                 onClick={() => console.log("clicked")}
                 radius="0px"
-                width="80px"/>
+                width="80px">
+                projects
+            </Button>
             <Button
                 border="none"
                 colour="black"
                 height="40px"
                 onClick={() => console.log("clicked")}
                 radius="0px"
-                width="80px"/>
+                width="80px">
+                projects
+            </Button>
             <Button
                 border="none"
                 colour="black"
                 height="40px"
                 onClick={() => console.log("clicked")}
                 radius="0px"
-                width="80px"/>
+                width="80px">
+                projects
+            </Button>
             <Button
                 border="none"
                 colour="black"
                 height="40px"
                 onClick={() => console.log("clicked")}
                 radius="0px"
-                width="80px"/>
+                width="80px">
+                projects
+            </Button>
         </nav>
     )
 }
