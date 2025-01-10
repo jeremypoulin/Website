@@ -17,7 +17,7 @@ const RButton: React.FC = () => {
     <div style={{ marginTop: "20px", marginLeft: "20px", display: "flex" }}>
     <button style={{ borderColor: "rgba(113, 94, 0, 0.87)", background: "#000", borderWidth: "2px", display: "flex", justifyContent: "center", alignItems: "center", padding: "10px 20px", fontSize: "16px" }}>
       <a
-        href="/JeremyPoulinResumeV5.pdf"
+        href="/JeremyPoulinResumeV6.pdf"
         download="JeremyPoulinResume.pdf"
         style={{color: "rgba(113, 94, 0, 0.87)", fontSize: "20px"}}>
         resume
