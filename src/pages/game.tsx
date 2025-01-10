@@ -1,7 +1,15 @@
+import React from "react";
+import TypeWriter from "../components/Typewriter";
+
 const Game = () => {
     return(
         <h1>
-            under construction
+            <TypeWriter
+            words={["under construction"]}
+            loop={0}
+            cursor
+            cursorStyle
+          />
         </h1>
     )
 }
