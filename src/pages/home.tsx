@@ -4,7 +4,8 @@ import RButton from "../components/RButton";
 
 const Home = () => {
     return (<div className="centre-container">
-        <h1 style={{textAlign: "center", marginTop: "250px", fontSize: "140px"}}>
+        <RButton></RButton>
+        <h1 style={{ display: "flex",justifyContent: "center", height: "100vh", marginTop: "250px", fontSize: "140px"}}>
         <TypeWriter
             words={["hi!", "my name is jeremy"]}
             cursor
@@ -14,7 +15,6 @@ const Home = () => {
             delaySpeed={1000}
           />
     </h1>
-    <RButton></RButton>
     </div>)
 }
 
