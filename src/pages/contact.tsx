@@ -18,7 +18,7 @@ const Contact = () => {
         </h1>
         <h2 style={{textAlign: "center", marginBottom: "1px"}}>links</h2>
         <p style={{textAlign: "center", marginTop: "1px"}}><a href="https://github.com/jeremypoulin" style={{color: "rgba(112, 0, 65, 0.87)"}}>GitHub</a><br></br>
-        <a href="https://www.linkedin.com/in/jeremy-poulin-725938278" style={{color: "rgba(112, 0, 65, 0.87)"}}>LinkedIn</a></p>
+        <a href="https://www.linkedin.com/in/jeremy-poulin-725938278" style={{color: "rgb(112, 0, 65)"}}>LinkedIn</a></p>
         <Form/>
         </div>
     )

@@ -12,9 +12,9 @@ form {
     border-radius: 8px;
     border-style: double;
     border-width: 5px;
-    border-color: rgba(113, 94, 0, 0.87);
+    border-color: rgb(113, 94, 0);
     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
-    color:rgba(113, 94, 0, 0.87);
+    color:rgb(113, 94, 0);
     margin: 25px;
 }
 
@@ -32,7 +32,7 @@ form .input-box {
     width: 100%;
     height: 50px;
     background: transparent;
-    border: 2px solid rgba(113, 94, 0, 0.87);
+    border: 2px solid rgb(113, 94, 0);
     outline: none;
     border-radius: 8px;
     padding: 15px;
@@ -49,7 +49,7 @@ form .input-box {
 form button {
     width: 100%;
     height: 55px;
-    background: rgba(113, 94, 0, 0.87);
+    background: rgb(113, 94, 0);
     border: none;
     border-radius: 6px;
     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
@@ -61,5 +61,5 @@ form button {
 }
 
 form button:hover {
-    background: rgba(112, 0, 65, 0.87);
+    background: rgb(112, 0, 65);
 }
