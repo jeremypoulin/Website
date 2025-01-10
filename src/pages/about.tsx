@@ -18,7 +18,7 @@ const About = () => {
                 Alongside my studies, I have a variety of interests which I pursue daily.
             </p>
             <h2 style={{ textAlign: "center" }}>tech</h2>
-            <p style={{padding: "30px", color: "lightgray" }}>Since I was first introduced to the world of computers as a young child marvelling at the magic black boxes that were cell phones, 
+            <p style={{padding: "30px", color: "lightgray" }}>Since I was first introduced to the world of computers as a young child marvelling at the magic black boxes that were called cell phones, 
                 my passion for computer technology has grown exponentially. <br></br>
                 Upon the discovery of FPV drones, I immediately became obsessed with the world of UAVs (Unmanned Aerial Vehicles). 
                 Unfortunately, the high cost of these devices was a tall barrier that stood in the way of the hobby.
