@@ -6,7 +6,7 @@ import "./home.css";
 const Home = () => {
     return (<div className="centre-container">
         <RButton></RButton>
-        <h1 style={{ display: "flex",justifyContent: "center", height: "100vh", marginTop: "250px", fontSize: "125px"}}>
+        <h1 style={{ display: "flex",justifyContent: "center", height: "100vh", marginTop: "250px", marginLeft: "20px", fontSize: "125px"}}>
         <TypeWriter
             words={["hi!", "my name is jeremy"]}
             cursor
