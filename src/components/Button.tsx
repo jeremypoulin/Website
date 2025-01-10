@@ -9,6 +9,8 @@ interface Properties {
     radius: string;
     width: string;
     children?: React.ReactNode;
+    bordercolour: string;
+    textcolour: string;
 }
 
 const Button: React.FC<Properties> = ({
@@ -18,7 +20,9 @@ const Button: React.FC<Properties> = ({
         onClick,
         radius,
         width,
-        children
+        children,
+        bordercolour,
+        textcolour
     }) => {
         return(
         <button
@@ -27,11 +31,13 @@ const Button: React.FC<Properties> = ({
                 backgroundColor: colour,
                 border,
                 borderRadius: radius || 0,
+                borderColor: bordercolour,
                 height,
                 width,
                 display: "flex",
                 justifyContent: "center",
-                alignItems: "center"
+                alignItems: "center",
+                color: textcolour
             }}
         >
             {children} {}
