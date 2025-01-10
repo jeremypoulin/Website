@@ -14,8 +14,8 @@ const Nav: React.FC<{}> = () => {
                 onClick={() => navigate("/")}
                 radius="0px"
                 width="80px"
-                bordercolour="rgba(113, 94, 0, 0.87)"
-                textcolour="rgba(113, 94, 0, 0.87)">
+                bordercolour="rgb(113, 94, 0)"
+                textcolour="rgb(113, 94, 0)">
                     home
                 </Button>
             <Button
@@ -25,8 +25,8 @@ const Nav: React.FC<{}> = () => {
                 onClick={() => navigate("/about")}
                 radius="0px"
                 width="80px"
-                bordercolour="rgba(113, 94, 0, 0.87)"
-                textcolour="rgba(113, 94, 0, 0.87)">
+                bordercolour="rgb(113, 94, 0)"
+                textcolour="rgb(113, 94, 0)">
                 me
             </Button>
             <Button
@@ -36,8 +36,8 @@ const Nav: React.FC<{}> = () => {
                 onClick={() => navigate("/projects")}
                 radius="0px"
                 width="80px"
-                bordercolour="rgba(113, 94, 0, 0.87)"
-                textcolour="rgba(113, 94, 0, 0.87)">
+                bordercolour="rgb(113, 94, 0)"
+                textcolour="rgb(113, 94, 0)">
                 projects
             </Button>
             <Button
@@ -47,8 +47,8 @@ const Nav: React.FC<{}> = () => {
                 onClick={() => navigate("/contact")}
                 radius="0px"
                 width="80px"
-                bordercolour="rgba(113, 94, 0, 0.87)"
-                textcolour="rgba(113, 94, 0, 0.87)">
+                bordercolour="rgb(113, 94, 0)"
+                textcolour="rgb(113, 94, 0)">
                 contact
             </Button>
         </nav>
