@@ -25,7 +25,7 @@ const Projects: React.FC = () => {
                 //icon={<WorkIcon />}
             >
                 <h3 className="vertical-timeline-element-title">Prem-Year</h3>
-                <h4 className="vertical-timeline-element-subtitle">React, JavaScript</h4>
+                <h4 className="vertical-timeline-element-subtitle">React, JavaScript, MySQL</h4>
                 <p>
                 Full stack development of a social media app which allows users to track and share studying stats with friends. (DESIGN STAGE)
                 </p>
