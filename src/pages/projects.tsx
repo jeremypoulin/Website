@@ -18,7 +18,7 @@ const Projects: React.FC = () => {
             <VerticalTimeline>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                contentStyle={{ background: '#fff', color: 'rgb(167, 51, 74)' }}
+                contentStyle={{borderWidth: "3px", borderColor: "rgb(167, 51, 74)", background: '#fff', color: 'rgb(167, 51, 74)' }}
                 contentArrowStyle={{ borderRight: '7px solid  #fff' }}
                 date="Jan 2024 - Current"
                 iconStyle={{ background: 'rgb(167, 51, 74)', color: '#fff' }}
