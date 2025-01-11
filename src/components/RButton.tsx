@@ -15,11 +15,11 @@ interface Properties {
 const RButton: React.FC = () => {
     return(
     <div style={{ marginTop: "20px", marginLeft: "20px", display: "flex" }}>
-    <button style={{ borderColor: "rgb(113, 94, 0)", background: "#000", borderWidth: "2px", display: "flex", justifyContent: "center", alignItems: "center", padding: "10px 20px", fontSize: "16px" }}>
+    <button style={{ borderColor: "rgb(165, 118, 0)", background: "#000", borderWidth: "2px", display: "flex", justifyContent: "center", alignItems: "center", padding: "10px 20px", fontSize: "16px" }}>
       <a
         href="/JeremyPoulinResumeV9.pdf"
         download="JeremyPoulinResume.pdf"
-        style={{color: "rgb(113, 94, 0)", fontSize: "20px"}}>
+        style={{color: "rgb(165, 118, 0)", fontSize: "20px"}}>
         resume
       </a>
     </button>

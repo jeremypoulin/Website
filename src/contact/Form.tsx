@@ -1,7 +1,8 @@
-import React from "react";
+import React, {useState} from "react";
 import "./CStyle.css";
 
 const Form = () => {
+    const [text, setButtonText] = useState("Send");
 
     const onSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault();
@@ -23,26 +24,27 @@ const Form = () => {
     
         if (res.success) {
           console.log("Success", res);
+          setButtonText((prevText) => (prevText === "Send" ? "Sent" : "Send"))
         }
       };
 
     return (
         <section className="contact">
             <form onSubmit={onSubmit}>
-                <h2>feel free to reach out!</h2>
+                <h2>Feel free to reach out!</h2>
                 <div className="input-box">
-                    <label>full name</label>
+                    <label>Full name</label>
                     <input type="text" className="field" placeholder="Enter your name" name="name" required/>
                 </div>
                 <div className="input-box">
-                    <label>email address</label>
+                    <label>Email address</label>
                     <input type="email" className="field" placeholder="Enter your email" name="email" required/>
                 </div>
                 <div className="input-box">
-                    <label>message</label>
+                    <label>Message</label>
                     <textarea name="message" className="field mess" placeholder="Type your message here" required/>
                 </div>
-                <button type="submit">Send</button>
+                <button type="submit">{text}</button>
             </form>
         </section>
     )
