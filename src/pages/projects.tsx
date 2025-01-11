@@ -51,7 +51,7 @@ const Projects: React.FC = () => {
                 //icon={<WorkIcon />}
             >
                 <h3 className="vertical-timeline-element-title">Library Noise Monitor</h3>
-                <h4 className="vertical-timeline-element-subtitle">C, Microcontroller, signal analysis</h4>
+                <h4 className="vertical-timeline-element-subtitle">C, Microcontroller, Signal analysis</h4>
                 <p>
                 A device which monitors the ambient sound of an environment and outputs warning lights relative to the analyzed noise level.
                 </p>
