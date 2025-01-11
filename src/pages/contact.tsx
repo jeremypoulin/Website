@@ -16,8 +16,8 @@ const Contact = () => {
             delaySpeed={1000}
           />
         </h1>
-        <p style={{textAlign: "center", marginTop: "1px"}}><a href="https://github.com/jeremypoulin" style={{color: "rgb(112, 0, 65)"}}>GitHub</a><br></br>
-        <a href="https://www.linkedin.com/in/jeremy-poulin-725938278" style={{color: "rgb(112, 0, 65)"}}>LinkedIn</a></p>
+        <p style={{textAlign: "center", marginTop: "1px"}}><a href="https://github.com/jeremypoulin" style={{color: "rgb(145, 0, 58)"}}>GitHub</a><br></br>
+        <a href="https://www.linkedin.com/in/jeremy-poulin-725938278" style={{color: "rgb(145, 0, 58)"}}>LinkedIn</a></p>
         <Form/>
         </div>
     )
