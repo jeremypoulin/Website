@@ -12,7 +12,7 @@ interface twProps {
 
 const TypeWriter: React.FC<twProps> = ({words, cursor, cursorStyle, typeSpeed, deleteSpeed, delaySpeed}) => {
   return (
-    <div className="App">
+    <div className="App" style={{color: "rgb(165, 118, 0)"}}>
       <Typewriter
             words={words}
             cursor
