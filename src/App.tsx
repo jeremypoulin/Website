@@ -11,8 +11,13 @@ import Nav from "./components/Nav";
 import AnimatedCursor from "react-animated-cursor";
 
 const App = () => {
+  const isMobile = () => {
+    const ua = navigator.userAgent;
+    return /Android|Mobi/i.test(ua);
+  };
   return (
     <div>
+    {!isMobile() && <AnimatedCursor color="145, 0, 58"/>}
     <AnimatedCursor color="145, 0, 58"/>
     <Router>
       <Nav/>
