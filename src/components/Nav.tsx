@@ -8,47 +8,19 @@ const Nav: React.FC<{}> = () => {
     return(
         <nav className={styles.navbar}>
             <Button
-                border="none"
-                colour="black"
-                height="40px"
-                onClick={() => navigate("/")}
-                radius="0px"
-                width="80px"
-                bordercolour="rgb(165, 118, 0)"
-                textcolour="rgb(165, 118, 0)">
+                onClick={() => navigate("/")}>
                     home
                 </Button>
             <Button
-                border="none"
-                colour="black"
-                height="40px"
-                onClick={() => navigate("/about")}
-                radius="0px"
-                width="80px"
-                bordercolour="rgb(165, 118, 0)"
-                textcolour="rgb(165, 118, 0)">
+                onClick={() => navigate("/about")}>
                 me
             </Button>
             <Button
-                border="none"
-                colour="black"
-                height="40px"
-                onClick={() => navigate("/projects")}
-                radius="0px"
-                width="80px"
-                bordercolour="rgb(165, 118, 0)"
-                textcolour="rgb(165, 118, 0)">
+                onClick={() => navigate("/projects")}>
                 projects
             </Button>
             <Button
-                border="none"
-                colour="black"
-                height="40px"
-                onClick={() => navigate("/contact")}
-                radius="0px"
-                width="80px"
-                bordercolour="rgb(165, 118, 0)"
-                textcolour="rgb(165, 118, 0)">
+                onClick={() => navigate("/contact")}>
                 contact
             </Button>
         </nav>
