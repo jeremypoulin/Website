@@ -8,9 +8,12 @@ import Contact from "./pages/contact";
 import Link from "./components/Link";
 import Button from "./components/Button";
 import Nav from "./components/Nav";
+import AnimatedCursor from "react-animated-cursor";
 
 const App = () => {
   return (
+    <div>
+    <AnimatedCursor color="145, 0, 58"/>
     <Router>
       <Nav/>
       <Routes>
@@ -20,6 +23,7 @@ const App = () => {
         <Route path="/contact" element={<Contact/>} />
       </Routes>
     </Router>
+    </div>
   );
 };
 

@@ -2,9 +2,39 @@
     background-color: rgba(0, 0, 0, 1);
     height: 50px;
     width: 100%;
-    border-bottom: 5px solid;
+    border-bottom: 2px solid;
     border-bottom-color: grey;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
+
+.button {
+    background-color: black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: none;
+    border-right: none;
+    border-radius: 0px;
+    color: rgb(165, 118, 0);
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+    outline: none;
+  }
+  
+  .button:active {
+    border-color: 2px solid rgb(145, 0, 58);
+    outline: none;
+  }
+
+  .button:focus {
+    border-top: 2px solid rgb(145, 0, 58);
+    border-bottom: 2px solid rgb(145, 0, 58);
+    outline: none;
+  }
+
+  .button:hover {
+    border-color: rgb(165, 118, 0);
+    outline: none;
+  }
