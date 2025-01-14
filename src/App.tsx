@@ -8,13 +8,9 @@ import Contact from "./pages/contact";
 import Link from "./components/Link";
 import Button from "./components/Button";
 import Nav from "./components/Nav";
-import Cursor from "./components/cursor"
+import Cursor from "./components/Cursor"
 
 const App = () => {
-  const isMobile = () => {
-    const ua = navigator.userAgent;
-    return /Android|Mobi/i.test(ua);
-  };
   return (
     <div>
     <Cursor/>
