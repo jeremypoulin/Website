@@ -11,6 +11,10 @@ import Nav from "./components/Nav";
 import Cursor from "./components/cursor"
 
 const App = () => {
+  const isMobile = () => {
+    const ua = navigator.userAgent;
+    return /Android|Mobi/i.test(ua);
+  };
   return (
     <div>
     <Cursor/>
