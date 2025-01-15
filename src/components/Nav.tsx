@@ -1,26 +1,35 @@
 import React from "react";
 import Button from "./Button";
 import styles from "./Nav.module.css";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 
 const Nav: React.FC<{}> = () => {
     const navigate = useNavigate();
+    const location = useLocation();
     return(
         <nav className={styles.navbar}>
             <Button
-                onClick={() => navigate("/")}>
+                id="home"
+                onClick={() => navigate("/")}
+                autoFocus={location.pathname === "/"}>
                     home
                 </Button>
             <Button
-                onClick={() => navigate("/about")}>
+                id="about"
+                onClick={() => navigate("/about")}
+                autoFocus={location.pathname === "/about"}>
                 me
             </Button>
             <Button
-                onClick={() => navigate("/projects")}>
+                id="projects"
+                onClick={() => navigate("/projects")}
+                autoFocus={location.pathname === "/projects"}>
                 projects
             </Button>
             <Button
-                onClick={() => navigate("/contact")}>
+                id="contact"
+                onClick={() => navigate("/contact")}
+                autoFocus={location.pathname === "/contact"}>
                 contact
             </Button>
         </nav>

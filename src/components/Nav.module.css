@@ -21,6 +21,7 @@
     cursor: crosshair;
     transition: border-color 0.3s ease;
     outline: none;
+    caret-color: rgb(145, 0, 58);
   }
   
   .button:active {
