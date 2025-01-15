@@ -14,7 +14,7 @@ const About = () => {
             delaySpeed={1000}
           /></h1>
             <h2 style={{ textAlign: "center", color: "rgb(145, 0, 58)"}}>general</h2>
-            <p style={{padding: "30px", color: "rgb(165, 118, 0)"}}>Born and raised in Edmonton, Alberta, I moved across Canada to attend the University of Waterloo's reknowned Computer Engineering program. 
+            <p style={{padding: "30px", color: "rgb(165, 118, 0)"}}>Born and raised in Edmonton, Alberta, I moved across Canada to attend the University of Waterloo's renowned Computer Engineering program. 
                 Alongside my studies, I have a variety of interests which I pursue daily.
             </p>
             <h2 style={{ textAlign: "center", color: "rgb(145, 0, 58)" }}>tech</h2>
