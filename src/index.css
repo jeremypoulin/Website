@@ -8,6 +8,7 @@
   color: rgb(165, 118, 0);
   background-color: #000000;
   cursor: crosshair;
+  caret-color: rgb(145, 0, 58);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -45,10 +46,12 @@ button {
   font-family: inherit;
   background-color: #1a1a1a;
   cursor: crosshair;
+  caret-color: rgb(145, 0, 58);
   transition: border-color 0.25s;
 }
 button:hover {
   cursor: crosshair;
+  caret-color: rgb(145, 0, 58);
   border-color: #646cff;
 }
 button:focus,

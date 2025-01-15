@@ -50,6 +50,7 @@ form .input-box {
     cursor: crosshair;
     height: 200px;
     resize: none;
+    caret-color: rgb(145, 0, 58);
 }
 
 form button {
@@ -64,6 +65,7 @@ form button {
     color: #fff;
     font-weight: 500;
     transition: .5s;
+    caret-color: rgb(145, 0, 58);
 }
 
 form button:hover {
