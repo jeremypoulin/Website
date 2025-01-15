@@ -35,7 +35,9 @@
     outline: none;
   }
 
-  .button:hover {
-    border-color: rgb(165, 118, 0);
-    outline: none;
+  @media (hover: hover) and (pointer: fine) {
+    .button:hover {
+      border-color: rgb(165, 118, 0);
+      outline: none;
+    }
   }
