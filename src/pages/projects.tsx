@@ -79,7 +79,7 @@ const Projects: React.FC = () => {
                 <h3 className="vertical-timeline-element-title">Custom FPV Drone Design/Build</h3>
                 <h4 className="vertical-timeline-element-subtitle">Design, Soldering, Testing</h4>
                 <p>
-                A custom built functioning FPV (First Person View) drone with integrated safety mechanisms and legal status.
+                A custom built functioning FPV (First Person View) drone with integrated safety mechanisms and legal status, capable of flying 100km\h+.
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
