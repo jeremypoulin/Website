@@ -1,0 +1,9 @@
+.a {
+    color: rgb(145, 0, 58);
+    cursor: crosshair;
+}
+
+.a:hover {
+    color: rgb(165, 118, 0);
+    cursor: crosshair;
+}

@@ -2,6 +2,7 @@ import React from "react";
 import TypeWriter from "../components/Typewriter";
 import Form from "../contact/Form";
 import Link from "../components/Link";
+import "../components/a.css";
 
 const Contact = () => {
     return(
@@ -16,8 +17,8 @@ const Contact = () => {
             delaySpeed={1000}
           />
         </h1>
-        <p style={{textAlign: "center", marginTop: "1px"}}><a href="https://github.com/jeremypoulin" style={{color: "rgb(145, 0, 58)"}}>GitHub</a><br></br>
-        <a href="https://www.linkedin.com/in/jeremy-poulin-725938278" style={{color: "rgb(145, 0, 58)"}}>LinkedIn</a></p>
+        <p style={{textAlign: "center", marginTop: "1px"}}><a className={"a"} href="https://github.com/jeremypoulin">GitHub</a><br></br>
+        <a className={"a"} href="https://www.linkedin.com/in/jeremy-poulin-725938278">LinkedIn</a></p>
         <Form/>
         </div>
     )

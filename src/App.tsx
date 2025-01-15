@@ -8,12 +8,11 @@ import Contact from "./pages/contact";
 import Link from "./components/Link";
 import Button from "./components/Button";
 import Nav from "./components/Nav";
-import Cursor from "./components/Cursor"
+//import Cursor from "./components/Cursor"
 
 const App = () => {
   return (
     <div>
-    <Cursor/>
     <Router>
       <Nav/>
       <Routes>

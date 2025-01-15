@@ -7,7 +7,7 @@
   color-scheme: light dark;
   color: rgb(165, 118, 0);
   background-color: #000000;
-  cursor: none;
+  cursor: crosshair;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -44,11 +44,11 @@ button {
   font-weight: 500;
   font-family: inherit;
   background-color: #1a1a1a;
-  cursor: none;
+  cursor: crosshair;
   transition: border-color 0.25s;
 }
 button:hover {
-  cursor: none;
+  cursor: crosshair;
   border-color: #646cff;
 }
 button:focus,
