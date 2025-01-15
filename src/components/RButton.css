@@ -1,0 +1,17 @@
+.RButton {
+    border-color: rgb(145, 0, 58);
+    background: #000;
+    border-width: 2px; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 5px 10px;
+    font-size: 20px;
+    color: rgb(145, 0, 58);
+}
+
+.RButton:hover {
+    color: rgb(165, 118, 0);
+    border-color: rgb(165, 118, 0);
+    outline: none;
+}
