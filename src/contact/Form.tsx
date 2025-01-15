@@ -31,17 +31,17 @@ const Form = () => {
     return (
         <section className="contact">
             <form onSubmit={onSubmit}>
-                <h2>Feel free to reach out!</h2>
+                <h2 style={{cursor: "crosshair"}}>Feel free to reach out!</h2>
                 <div className="input-box">
-                    <label>Full name</label>
+                    <label style={{cursor: "crosshair"}}>Full name</label>
                     <input type="text" className="field" placeholder="Enter your name" name="name" required/>
                 </div>
                 <div className="input-box">
-                    <label>Email address</label>
+                    <label style={{cursor: "crosshair"}}>Email address</label>
                     <input type="email" className="field" placeholder="Enter your email" name="email" required/>
                 </div>
                 <div className="input-box">
-                    <label>Message</label>
+                    <label style={{cursor: "crosshair"}}>Message</label>
                     <textarea name="message" className="field mess" placeholder="Type your message here" required/>
                 </div>
                 <button type="submit">{text}</button>

@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    cursor: crosshair;
 }
 
 form {
@@ -16,19 +17,23 @@ form {
     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
     color:rgb(165, 118, 0);
     margin: 25px;
+    cursor: crosshair;
 }
 
 form h2 {
     font-size: 30px;
     text-align: center;
+    cursor: crosshair;
 }
 
 form .input-box {
     margin-top: 20px;
     margin: 50px;
+    cursor: crosshair;
 }
 
 .input-box .field {
+    cursor: crosshair;
     width: 100%;
     height: 50px;
     background: transparent;
@@ -42,6 +47,7 @@ form .input-box {
 }
 
 .input-box .field.mess {
+    cursor: crosshair;
     height: 200px;
     resize: none;
 }
@@ -53,7 +59,7 @@ form button {
     border: none;
     border-radius: 6px;
     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
-    cursor: pointer;
+    cursor: crosshair;
     font-size: 24px;
     color: #fff;
     font-weight: 500;

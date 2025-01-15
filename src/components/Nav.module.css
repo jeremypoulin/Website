@@ -18,7 +18,7 @@
     border-radius: 0px;
     color: rgb(165, 118, 0);
     padding: 10px 20px;
-    cursor: none;
+    cursor: crosshair;
     transition: border-color 0.3s ease;
     outline: none;
   }
