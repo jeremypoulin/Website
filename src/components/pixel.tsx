@@ -12,7 +12,7 @@ const Pixel: React.FC = () => {
         visible: {
           opacity: 1,
           transition: {
-            staggerChildren: 0.0005,
+            staggerChildren: 0.0000001,
             },
         },
         exit: {
@@ -42,7 +42,7 @@ const Pixel: React.FC = () => {
           exit="exit"
         >
           {Array.from({ length: row*col }).map((_, index) => (
-            <motion.div key={index} className="grid-item" custom={index/10} variants={itemVariants}>
+            <motion.div key={index} className="grid-item" custom={index/16} variants={itemVariants}>
             </motion.div>
           ))}
         </motion.div>
