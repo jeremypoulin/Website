@@ -1,0 +1,8 @@
+.link {
+    text-decoration: underline;
+}
+
+.link:hover {
+    color: rgb(165, 118, 0);
+    cursor: crosshair;
+}
