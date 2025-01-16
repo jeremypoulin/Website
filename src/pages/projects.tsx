@@ -1,7 +1,7 @@
 import React, {useEffect} from "react";
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import Link from "../components/Link";
+import "../components/link.css";
 import TypeWriter from "../components/Typewriter";
 
 const Projects: React.FC = () => {
@@ -24,7 +24,7 @@ const Projects: React.FC = () => {
                 iconStyle={{ background: 'rgb(167, 51, 74)', color: '#fff' }}
                 //icon={<WorkIcon />}
             >
-                <h3 className="vertical-timeline-element-title">Prem-Year</h3>
+                <h3 className="vertical-timeline-element-title"><a className={"link"} href={"https://www.github.com/jeremypoulin/studious"}>Studious</a></h3>
                 <h4 className="vertical-timeline-element-subtitle">React, JavaScript, MySQL</h4>
                 <p>
                 Full stack development of a social media app which allows users to track and share studying stats with friends. (DESIGN STAGE)
