@@ -11,7 +11,7 @@ const Home: React.FC = () => {
     useEffect(() => {
         const timer = setTimeout(() => {
           setShowTypewriter(true);
-        }, 700);
+        }, 500);
     
         return () => clearTimeout(timer);
       }, []);

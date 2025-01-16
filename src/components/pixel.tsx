@@ -3,8 +3,8 @@ import { motion } from "framer-motion";
 import "../pages/home.css";
 
 const Pixel: React.FC = () => {
-    const row = 20
-    const col = 20
+    const row = 30
+    const col = 30
     const containerVariants = {
         hidden: {
           opacity: 1,
@@ -42,7 +42,7 @@ const Pixel: React.FC = () => {
           exit="exit"
         >
           {Array.from({ length: row*col }).map((_, index) => (
-            <motion.div key={index} className="grid-item" custom={index/16} variants={itemVariants}>
+            <motion.div key={index} className="grid-item" custom={index/60} variants={itemVariants}>
             </motion.div>
           ))}
         </motion.div>
