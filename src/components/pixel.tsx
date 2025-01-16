@@ -45,7 +45,7 @@ const Pixel: React.FC = () => {
 
     return (
         <motion.div
-        style={{ willChange: 'transform', zIndex }}
+        style={{ willChange: 'transform',}}
           className="grid-container"
           variants={containerVariants}
           initial="hidden"

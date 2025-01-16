@@ -1,4 +1,9 @@
 .RButton {
+    position: relative;
+    visibility: hidden;
+    opacity: 0;
+    animation: fade-in-content 3s ease-in forwards;
+    z-index: 12;
     border-color: rgb(145, 0, 58);
     background: #000;
     border-width: 2px; 
@@ -15,4 +20,17 @@
     color: rgb(165, 118, 0);
     border-color: rgb(165, 118, 0);
     outline: none;
+}
+
+@keyframes fade-in-content {
+
+    from {
+      visibility: hidden;
+      opacity: 0;
+    }
+    to {
+      visibility: visible;
+      opacity: 1;
+    }
+    
 }
