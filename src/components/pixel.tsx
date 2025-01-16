@@ -12,7 +12,7 @@ const Pixel: React.FC = () => {
         visible: {
           opacity: 1,
           transition: {
-            staggerChildren: 0.001,
+            staggerChildren: 0.0005,
             },
         },
         exit: {
