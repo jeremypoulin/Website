@@ -84,7 +84,7 @@ const Projects: React.FC = () => {
                 <img src={"img3.jpg"} width="65%" height="65%"style={{marginLeft: "10px"}}/>
                 </div>
                 <div>
-                <h3 className="vertical-timeline-element-title"><a className={"link"} href={"https://www.github.com/jeremypoulin/fpv-drone"}>Custom FPV Drone Design/Build</a></h3>
+                <h3 className="vertical-timeline-element-title"><a className={"link"} href={"https://www.github.com/jeremypoulin/fpv-drone"}>Custom FPV Drone</a></h3>
                 <h4 className="vertical-timeline-element-subtitle">Design, Soldering, Testing</h4>
                 <p>
                     A custom built functioning FPV (First Person View) drone with integrated safety mechanisms and legal status, capable of flying 100km\h+.
