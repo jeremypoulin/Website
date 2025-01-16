@@ -61,8 +61,8 @@ html, body {
 
 .grid-item {
   z-index: 1;
-  background-color: black;
-  border: 1px solid rgb(165, 118, 0);
+  background-color: rgb(165, 118, 0);
+  border: 1px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
