@@ -35,11 +35,13 @@ const Pixel: React.FC = () => {
 
     return (
         <motion.div
+        style={{ willChange: 'transform' }}
           className="grid-container"
           variants={containerVariants}
           initial="hidden"
           animate="visible"
           exit="exit"
+          transition={{type: "spring", stiffness: "300", damping: '20'}}
         >
           {Array.from({ length: row*col }).map((_, index) => (
             <motion.div key={index} className="grid-item" custom={index/60} variants={itemVariants}>
