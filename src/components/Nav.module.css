@@ -1,4 +1,9 @@
 .navbar {
+  position: relative;
+    visibility: hidden;
+    opacity: 0;
+    animation: fade-in-content 3s ease-in forwards;
+    z-index: 999;
     background-color: rgba(0, 0, 0, 1);
     height: 50px;
     width: 100%;
@@ -11,12 +16,18 @@
 }
 
 .button {
+  position: relative;
+    visibility: hidden;
+    opacity: 0;
+    animation: fade-in-content 0.5s ease-in forwards;
+    z-index: 999;
     background-color: black;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     border-left: none;
     border-right: none;
     border-radius: 0px;
+    display: flex;
     color: rgb(165, 118, 0);
     padding: 10px 20px;
     cursor: crosshair;
@@ -41,4 +52,17 @@
       border-color: rgb(165, 118, 0);
       outline: none;
     }
+  }
+
+  @keyframes fade-in-content {
+
+    from {
+      visibility: hidden;
+      opacity: 0;
+    }
+    to {
+      visibility: visible;
+      opacity: 1;
+    }
+    
   }

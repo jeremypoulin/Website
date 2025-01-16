@@ -2,7 +2,7 @@ html, body {
   margin: 0;
   padding: 0;
   height: 100vh;
-  z-index: 20;
+  z-index: 1;
 } 
 
 .typewriter-text {
@@ -37,7 +37,7 @@ html, body {
 }
 
 .centre-container {
-  z-index: 20;
+  z-index: 1;
   display: flex;
   justify-content: center;
   height: 100vh;
@@ -50,7 +50,7 @@ html, body {
 } */
 
 .grid-container {
-  z-index: 20;
+  z-index: 1;
     margin-top: -120px;
     display: grid;
     grid-template-columns: repeat(30, minmax(0, 1fr));
@@ -60,7 +60,7 @@ html, body {
 }
 
 .grid-item {
-  z-index: 20;
+  z-index: 1;
   background-color: black;
   border: 1px solid rgb(165, 118, 0);
   display: flex;
