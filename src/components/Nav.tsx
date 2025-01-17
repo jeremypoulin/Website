@@ -28,9 +28,9 @@ const Nav: React.FC<{}> = () => {
             </Button>
             <Button
                 id="contact"
-                onClick={() => navigate("/contact")}
-                autoFocus={location.pathname === "/contact"}>
-                contact
+                onClick={() => navigate("/connect")}
+                autoFocus={location.pathname === "/connect"}>
+                connect
             </Button>
         </nav>
     )

@@ -1,10 +1,11 @@
-import React from "react";
-import { motion } from "framer-motion";
+import React, {useEffect} from "react";
+import { motion, animate, useMotionValue } from "framer-motion";
 import "../pages/home.css";
 
 const Pixel: React.FC = () => {
-    const row = 20
-    const col = 20
+    const row = 30
+    const col = 30
+    const zIndex = useMotionValue(0);
     const containerVariants = {
         hidden: {
           opacity: 1,
@@ -26,23 +27,34 @@ const Pixel: React.FC = () => {
             opacity: 0,
             scale: 0,
             transition: {
-              delay: Math.random() * custom * 0.1,
+              delay: 0.8 + Math.random() * custom * 0.1,
               duration: 1,
             },
           }),
         exit: { opacity: 0 },
     };
 
+    useEffect(() => {
+        animate(20, 0, {
+            duration: 4,
+            onUpdate: (latest) => {
+                zIndex.set(Math.round(latest));
+            },
+        });
+    }, [zIndex])
+
     return (
         <motion.div
+        style={{ willChange: 'transform',}}
           className="grid-container"
           variants={containerVariants}
           initial="hidden"
           animate="visible"
           exit="exit"
+          transition={{type: "spring", stiffness: "300", damping: '20'}}
         >
           {Array.from({ length: row*col }).map((_, index) => (
-            <motion.div key={index} className="grid-item" custom={index/16} variants={itemVariants}>
+            <motion.div key={index} className="grid-item" custom={index/60} variants={itemVariants}>
             </motion.div>
           ))}
         </motion.div>

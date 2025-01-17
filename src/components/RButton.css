@@ -1,4 +1,11 @@
 .RButton {
+    position: relative;
+    transform: translateX(-100%);
+    visibility: hidden;
+    opacity: 0;
+    animation: ease-in-content 1s ease-in forwards;
+    animation-delay: 1s;
+    z-index: 999;
     border-color: rgb(145, 0, 58);
     background: #000;
     border-width: 2px; 
@@ -9,11 +16,26 @@
     font-size: 20px;
     color: rgb(145, 0, 58);
     cursor: crosshair;
-    z-index: 12;
+    transition: transform 0.5s ease;
 }
 
 .RButton:hover {
     color: rgb(165, 118, 0);
     border-color: rgb(165, 118, 0);
     outline: none;
+}
+
+@keyframes ease-in-content {
+
+    from {
+      visibility: hidden;
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    to {
+      visibility: visible;
+      opacity: 1;
+      transform: translateX(0%);
+    }
+    
 }

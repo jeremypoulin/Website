@@ -1,4 +1,11 @@
 .navbar {
+  position: relative;
+  transform: translateY(-100%);
+    visibility: hidden;
+    opacity: 0;
+    animation: fade-in-content 1s ease-in forwards;
+    animation-delay: 1s;
+    z-index: 999;
     background-color: rgba(0, 0, 0, 1);
     height: 50px;
     width: 100%;
@@ -7,15 +14,23 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+
 }
 
 .button {
+  position: relative;
+    visibility: hidden;
+    opacity: 0;
+    animation: fade-in-content 1s ease-in forwards;
+    animation-delay: 1s;
+    z-index: 999;
     background-color: black;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     border-left: none;
     border-right: none;
     border-radius: 0px;
+    display: flex;
     color: rgb(165, 118, 0);
     padding: 10px 20px;
     cursor: crosshair;
@@ -40,4 +55,19 @@
       border-color: rgb(165, 118, 0);
       outline: none;
     }
+  }
+
+  @keyframes fade-in-content {
+
+    from {
+      visibility: hidden;
+      opacity: 0;
+      transform: translateY(-100%);
+    }
+    to {
+      visibility: visible;
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    
   }
