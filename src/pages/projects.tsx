@@ -25,7 +25,7 @@ const Projects: React.FC = () => {
                 contentArrowStyle={{ borderRight: '7px solid  #fff' }}
                 date="Jan 2024 - Current"
                 iconStyle={{ background: 'rgb(167, 51, 74)', color: '#fff' }}
-                //icon={<WorkIcon />}
+                icon={<img src={"softwareicon_processed.png"} style={{display: "flex", justifyContent: "center", width: "100%", height:"100%"}}/>}
             >
                 <h3 className="vertical-timeline-element-title"><a className={"link"} href={"https://www.github.com/jeremypoulin/studious"}>Studious</a></h3>
                 <h4 className="vertical-timeline-element-subtitle">React, JavaScript, MySQL</h4>
@@ -38,7 +38,7 @@ const Projects: React.FC = () => {
                 date="Aug 2024 - Current"
                 contentStyle={{ background: '#fff', color: 'rgb(162, 53, 159)' }}
                 iconStyle={{ background: 'rgb(162, 53, 159)', color: '#fff' }}
-                //icon={<WorkIcon />}
+                icon={<img src={"softwareicon_processed.png"} style={{display: "flex", justifyContent: "center", width: "100%", height:"100%"}}/>}
             >
                 <h3 className="vertical-timeline-element-title"><a className={"link"} href={"https://www.github.com/sleepwalker-studios/qir"}>QIR</a></h3>
                 <h4 className="vertical-timeline-element-subtitle">GDScript, Godot</h4>
@@ -51,7 +51,7 @@ const Projects: React.FC = () => {
                 date="Sep 2024 - Nov 2024"
                 contentStyle={{ background: '#fff', color: 'rgb(97, 53, 162)' }}
                 iconStyle={{ background: 'rgb(97, 53, 162)', color: '#fff' }}
-                //icon={<WorkIcon />}
+                icon={<img src={"hardwareicon_processed.png"} style={{display: "flex", justifyContent: "center", width: "100%", height:"100%"}}/>}
             >   <div style={{display: "flex"}}>
                 <FullScreenViewer defaultZoom={100} img={"LNM.jpg"} width="60%" height="60%"/>
                 {<FullScreenViewer defaultZoom={100} img={"img4.jpg"} width="37%" height="37%"style={{marginLeft: "10px"}}/>}
@@ -67,7 +67,7 @@ const Projects: React.FC = () => {
                 date="Aug 2023 - Dec 2023"
                 contentStyle={{ background: '#fff', color: 'rgb(53, 71, 162)' }}
                 iconStyle={{ background: 'rgb(53, 71, 162)', color: '#fff' }}
-                //icon={<WorkIcon />}
+                icon={<img src={"softwareicon_processed.png"} style={{display: "flex", justifyContent: "center", width: "100%", height:"100%"}}/>}
             >   <div style={{display: "flex"}}>
                 <video src={"spacevid2.mp4"} width="50%" height="50%" controls/>
                 <div>
@@ -85,7 +85,7 @@ const Projects: React.FC = () => {
                 date="Mar 2021 - Dec 2023"
                 contentStyle={{ background: '#fff', color: 'rgb(53, 131, 162)' }}
                 iconStyle={{ background: 'rgb(53, 131, 162)', color: '#fff' }}
-                //icon={<SchoolIcon />}
+                icon={<img src={"hardwareicon_processed.png"} style={{display: "flex", justifyContent: "center", width: "100%", height:"100%"}}/>}
             >   <div style={{display: "flex"}}>
                 <FullScreenViewer defaultZoom={100} img={"img2.jpg"} width="35%"/>
                 <FullScreenViewer defaultZoom={100} img={"img3.jpg"} width="65%" height="65%"style={{marginLeft: "10px"}}/>
