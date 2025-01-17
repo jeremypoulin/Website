@@ -1,16 +1,10 @@
 .navbar {
   position: relative;
-<<<<<<< HEAD
   transform: translateY(-100%);
     visibility: hidden;
     opacity: 0;
     animation: fade-in-content 1s ease-in forwards;
     animation-delay: 1s;
-=======
-    visibility: hidden;
-    opacity: 0;
-    animation: fade-in-content 3s ease-in forwards;
->>>>>>> a0fcd4569663f9e31370bc7ebb95e037f8fc3f00
     z-index: 999;
     background-color: rgba(0, 0, 0, 1);
     height: 50px;
@@ -27,12 +21,8 @@
   position: relative;
     visibility: hidden;
     opacity: 0;
-<<<<<<< HEAD
     animation: fade-in-content 1s ease-in forwards;
     animation-delay: 1s;
-=======
-    animation: fade-in-content 0.5s ease-in forwards;
->>>>>>> a0fcd4569663f9e31370bc7ebb95e037f8fc3f00
     z-index: 999;
     background-color: black;
     border-top: 2px solid black;
@@ -72,18 +62,12 @@
     from {
       visibility: hidden;
       opacity: 0;
-<<<<<<< HEAD
       transform: translateY(-100%);
-=======
->>>>>>> a0fcd4569663f9e31370bc7ebb95e037f8fc3f00
     }
     to {
       visibility: visible;
       opacity: 1;
-<<<<<<< HEAD
       transform: translateY(0%);
-=======
->>>>>>> a0fcd4569663f9e31370bc7ebb95e037f8fc3f00
     }
     
   }

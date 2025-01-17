@@ -1,18 +1,11 @@
 .RButton {
     position: relative;
-<<<<<<< HEAD
     transform: translateX(-100%);
     visibility: hidden;
     opacity: 0;
     animation: ease-in-content 1s ease-in forwards;
     animation-delay: 1s;
     z-index: 999;
-=======
-    visibility: hidden;
-    opacity: 0;
-    animation: fade-in-content 3s ease-in forwards;
-    z-index: 12;
->>>>>>> a0fcd4569663f9e31370bc7ebb95e037f8fc3f00
     border-color: rgb(145, 0, 58);
     background: #000;
     border-width: 2px; 
@@ -23,10 +16,7 @@
     font-size: 20px;
     color: rgb(145, 0, 58);
     cursor: crosshair;
-<<<<<<< HEAD
     transition: transform 0.5s ease;
-=======
->>>>>>> a0fcd4569663f9e31370bc7ebb95e037f8fc3f00
 }
 
 .RButton:hover {
@@ -35,27 +25,17 @@
     outline: none;
 }
 
-<<<<<<< HEAD
 @keyframes ease-in-content {
-=======
-@keyframes fade-in-content {
->>>>>>> a0fcd4569663f9e31370bc7ebb95e037f8fc3f00
 
     from {
       visibility: hidden;
       opacity: 0;
-<<<<<<< HEAD
       transform: translateX(-100%);
-=======
->>>>>>> a0fcd4569663f9e31370bc7ebb95e037f8fc3f00
     }
     to {
       visibility: visible;
       opacity: 1;
-<<<<<<< HEAD
       transform: translateX(0%);
-=======
->>>>>>> a0fcd4569663f9e31370bc7ebb95e037f8fc3f00
     }
     
 }

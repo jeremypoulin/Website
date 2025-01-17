@@ -60,17 +60,11 @@ html, body {
 }
 
 .grid-item {
-<<<<<<< HEAD
   animation: fade-in-content 1.6s ease-in forwards;
   animation-delay: 1s;
   z-index: 1;
   background-color: rgb(165, 118, 0);
   border: none;
-=======
-  z-index: 1;
-  background-color: rgb(165, 118, 0);
-  border: 1px solid black;
->>>>>>> a0fcd4569663f9e31370bc7ebb95e037f8fc3f00
   display: flex;
   justify-content: center;
   align-items: center;
