@@ -6,12 +6,12 @@ import Pixel from "../components/pixel"
 
 const Home: React.FC = () => {
     const [showTypewriter, setShowTypewriter] = useState(false);
-    const row = 20;
-    const col = 20;
+    const row = 100;
+    const col = 100;
     useEffect(() => {
         const timer = setTimeout(() => {
           setShowTypewriter(true);
-        }, 700);
+        }, 1200);
     
         return () => clearTimeout(timer);
       }, []);
