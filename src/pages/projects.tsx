@@ -48,6 +48,21 @@ const Projects: React.FC = () => {
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
+                contentStyle={{borderWidth: "3px", borderColor: "rgb(167, 51, 74)", background: '#fff', color: 'rgb(167, 51, 74)' }}
+                contentArrowStyle={{ borderRight: '7px solid  #fff' }}
+                date="Jan 2025 - Feb 2025"
+                iconStyle={{ background: 'rgb(167, 51, 74)', color: '#fff' }}
+                icon={<img src={"softwareicon_processed.png"} style={{display: "flex", justifyContent: "center", width: "100%", height:"100%"}}/>}
+            > <div style={{display: "flex"}}><iframe src="https://itch.io/embed/3282369?border_width=5&amp;bg_color=fbf6e9&amp;fg_color=040447&amp;link_color=f84040&amp;border_color=ad9770" width="200" height="160"><a href="https://sleepwalker-studios.itch.io/the-heart-that-fed">The Heart That Fed by Sleepwalker Studios</a></iframe>
+            </div>
+                <h3 className="vertical-timeline-element-title"><a className={"link"} href={"https://www.github.com/sleepwalker-studios/the-heart-that-fed"}>The Heart That Fed</a></h3>
+                <h4 className="vertical-timeline-element-subtitle">C#, .NET, Godot</h4>
+                <p>
+                    A resource management/simulation game created in 9 days, based on Percy Shelley's "Ozymandias".
+                </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                className="vertical-timeline-element--work"
                 date="Sep 2024 - Nov 2024"
                 contentStyle={{ background: '#fff', color: 'rgb(97, 53, 162)' }}
                 iconStyle={{ background: 'rgb(97, 53, 162)', color: '#fff' }}
