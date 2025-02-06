@@ -33,7 +33,7 @@ const Projects: React.FC = () => {
                     Full stack development of a social media app which allows users to track and share studying stats with friends. (DESIGN STAGE)
                 </p>
             </VerticalTimelineElement>
-            <VerticalTimelineElement
+            {/* <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 date="Aug 2024 - Current"
                 contentStyle={{ background: '#fff', color: 'rgb(162, 53, 159)' }}
@@ -45,7 +45,7 @@ const Projects: React.FC = () => {
                 <p>
                     A cross-platform arcade game inspired by air hockey, in which players are immersed in the arena. (UNDER CONSTRUCTION)
                 </p>
-            </VerticalTimelineElement>
+            </VerticalTimelineElement> */}
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 contentStyle={{borderWidth: "3px", borderColor: "rgb(167, 51, 74)", background: '#fff', color: 'rgb(167, 51, 74)' }}
