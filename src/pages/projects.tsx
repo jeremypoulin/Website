@@ -23,14 +23,54 @@ const Projects: React.FC = () => {
                 className="vertical-timeline-element--work"
                 contentStyle={{borderWidth: "3px", borderColor: "rgb(167, 51, 74)", background: '#fff', color: 'rgb(167, 51, 74)' }}
                 contentArrowStyle={{ borderRight: '7px solid  #fff' }}
-                date="Jan 2024 - Current"
+                date="Jan 2025 - Current"
                 iconStyle={{ background: 'rgb(167, 51, 74)', color: '#fff' }}
                 icon={<img src={"softwareicon_processed.png"} style={{display: "flex", justifyContent: "center", width: "100%", height:"100%"}}/>}
-            >
-                <h3 className="vertical-timeline-element-title"><a className={"link"} href={"https://www.github.com/jeremypoulin/studious"}>Studious</a></h3>
-                <h4 className="vertical-timeline-element-subtitle">React, JavaScript, MySQL</h4>
+            >   <div style={{display: "flex"}}>
+                <FullScreenViewer defaultZoom={100} img={"turntablehs.png"} width="45%" height="45%"/>
+                {<FullScreenViewer defaultZoom={100} img={"turntablepaschem.png"} width="56%" height="56%"style={{marginLeft: "10px"}}/>}
+                </div>
+                <h3 className="vertical-timeline-element-title"><a className={"link"} href={"https://www.github.com/jeremypoulin/studius"}>Turntable Design</a></h3>
+                <h4 className="vertical-timeline-element-subtitle">Altium Designer, Solidworks, STM32</h4>
+                <p>
+                    Full electrical, mechanical and software design and implementation of a turntable, including: <br></br> - Preamp, motor driver, power supply PCBs <br></br> - 3D modeling of the casing and tonearm <br></br> - Software development of the embedded system driven by an STM32 Microcontroller. (PROTOTYPING STAGE)
+                </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                contentStyle={{borderWidth: "3px", borderColor: "rgb(167, 51, 74)", background: '#fff', color: 'rgb(167, 51, 74)' }}
+                contentArrowStyle={{ borderRight: '7px solid  #fff' }}
+                date="Jan 2025 - Current"
+                iconStyle={{ background: 'rgb(167, 51, 74)', color: '#fff' }}
+                icon={<img src={"softwareicon_processed.png"} style={{display: "flex", justifyContent: "center", width: "100%", height:"100%"}}/>}
+            >   <div style={{display: "flex"}}>
+                <FullScreenViewer defaultZoom={100} img={"studiuslogin.png"} width="45%" height="45%"/>
+                {<FullScreenViewer defaultZoom={100} img={"studiusflow.png"} width="55%" height="55%"style={{marginLeft: "10px"}}/>}
+                </div>
+                <h3 className="vertical-timeline-element-title"><a className={"link"} href={"https://www.github.com/jeremypoulin/studius"}>Studius</a></h3>
+                <h4 className="vertical-timeline-element-subtitle">React, TypeScript, MySQL</h4>
                 <p>
                     Full stack development of a social media app which allows users to track and share studying stats with friends. (DESIGN STAGE)
+                </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                contentStyle={{borderWidth: "3px", borderColor: "rgb(167, 51, 74)", background: '#fff', color: 'rgb(167, 51, 74)' }}
+                contentArrowStyle={{ borderRight: '7px solid  #fff' }}
+                date="Jan 2025 - Feb 2025"
+                iconStyle={{ background: 'rgb(167, 51, 74)', color: '#fff' }}
+                icon={<img src={"softwareicon_processed.png"} style={{display: "flex", justifyContent: "center", width: "100%", height:"100%"}}/>}
+            >   <div style={{display: "flex"}}>
+                <div style={{display: "flex", flexDirection: "column"}}>
+                <FullScreenViewer defaultZoom={100} img={"vregpcb.png"} width="85%" height="85%"/>
+                <FullScreenViewer defaultZoom={100} img={"vregschem.png"} width="85%" height="85%"/>
+                </div>
+                {<FullScreenViewer defaultZoom={100} img={"vreg3d.png"} width="45%" height="45%"style={{marginLeft: "-15px"}}/>}
+                </div>
+                <h3 className="vertical-timeline-element-title"><a className={"link"} href={"https://www.github.com/jeremypoulin/voltage-regulator-pcb-warg"}>Voltage Regulator PCB</a></h3>
+                <h4 className="vertical-timeline-element-subtitle">Altium Designer</h4>
+                <p>
+                    Designed a Voltage Regulator PCB using an LDO IC intended to reduce a 3.3V input to a 1.8V output, ideal for testing and rapid implementation purposes
                 </p>
             </VerticalTimelineElement>
             {/* <VerticalTimelineElement

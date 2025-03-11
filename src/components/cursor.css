@@ -1,0 +1,23 @@
+/* * {
+    cursor: none;
+}
+
+.visible {
+    opacity: 1;
+    display: block;
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(145, 0, 58);
+    border-radius: 50%;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    transition: opacity 0.2s ease, transform 0.1s ease;
+   
+}
+
+.hidden {
+    cursor: none;
+}
+ */
