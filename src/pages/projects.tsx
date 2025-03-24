@@ -6,6 +6,9 @@ import TypeWriter from "../components/Typewriter";
 import { FlatTree } from "framer-motion";
 import 'react-iv-viewer/dist/react-iv-viewer.css';
 import { ImageViewer, FullScreenViewer } from 'react-iv-viewer';
+import Image from 'rc-image';
+import Zoom from 'react-medium-image-zoom'
+import 'react-medium-image-zoom/dist/styles.css'
 
 const Projects: React.FC = () => {
     return(
@@ -28,10 +31,10 @@ const Projects: React.FC = () => {
                 icon={<img src={"softwareicon_processed.png"} style={{display: "flex", justifyContent: "center", width: "100%", height:"100%"}}/>}
             >   <div style={{display: "flex"}}>
                 <div style={{display: "flex", flexDirection: "column"}}>
-                <FullScreenViewer defaultZoom={100} img={"tunrtabletaa.png"} width="85%" height="85%"/>
-                <FullScreenViewer defaultZoom={100} img={"turntabledesign.jpg"} width="85%" height="85%"/>
+                <Zoom><img src="tonearm.png" height="70%" width={"70%"}/></Zoom>
+                <Zoom><img src="Turntabledesign.jpg" style={{marginTop: "-10px"}} height="70%" width={"70%"}/></Zoom>
                 </div>
-                {<FullScreenViewer defaultZoom={100} img={"phonopreampschem.png"} width="56%" height="56%"style={{marginLeft: "10px"}}/>}
+                <Zoom><img src={"PhonoPreampSchem.png"} style={{marginLeft: "-100px", marginTop: "20px"}} width="150%"/></Zoom>
                 </div>
                 <h3 className="vertical-timeline-element-title"><a className={"link"} href={"https://www.github.com/jeremypoulin/studius"}>Turntable Design</a></h3>
                 <h4 className="vertical-timeline-element-subtitle">Altium Designer, Solidworks, STM32</h4>
