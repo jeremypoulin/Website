@@ -35,7 +35,7 @@ const Projects: React.FC = () => {
                 <FullScreenViewer defaultZoom={100} img={"Turntabledesign.jpg"} width="70%" height="70%"/>
                 </div>
                 <div style={{marginLeft: "-100px"}}>
-                {<FullScreenViewer defaultZoom={100} img={"PhonoPreampSchemCropped.png"} width="110%" height="101%"style={{}}/>}</div>
+                <FullScreenViewer defaultZoom={100} img={"PhonoPreampSchemCropped.png"} width="110%" height="101%"/></div>
                 </div>
                 <h3 className="vertical-timeline-element-title"><a className={"link"} href={"https://www.github.com/jeremypoulin/studius"}>Turntable Design</a></h3>
                 <h4 className="vertical-timeline-element-subtitle">Altium Designer, Solidworks, STM32</h4>
