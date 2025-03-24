@@ -102,7 +102,6 @@ const Projects: React.FC = () => {
                 icon={<img src={"softwareicon_processed.png"} style={{display: "flex", justifyContent: "center", width: "100%", height:"100%"}}/>}
             > <div style={{display: "flex"}}>
                 <iframe src="https://itch.io/embed/3282369?border_width=5&amp;bg_color=fbf6e9&amp;fg_color=040447&amp;link_color=f84040&amp;border_color=ad9770" width="200" height="160"><a href="https://sleepwalker-studios.itch.io/the-heart-that-fed">The Heart That Fed by Sleepwalker Studios</a></iframe>
-                <FullScreenViewer defaultZoom={100} img={"thtfss.png"} width="56%" height="56%"style={{marginLeft: "10px"}}/>
             </div>
                 <h3 className="vertical-timeline-element-title"><a className={"link"} href={"https://www.github.com/sleepwalker-studios/the-heart-that-fed"}>The Heart That Fed</a></h3>
                 <h4 className="vertical-timeline-element-subtitle">C#, .NET, Godot</h4>
