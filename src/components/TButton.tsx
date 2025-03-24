@@ -1,5 +1,5 @@
 import React from "react";
-import "./RButton.css";
+import "./TButton.css";
 
 interface Properties {
     border: string;
@@ -13,18 +13,17 @@ interface Properties {
     textcolour: string;
 }
 
-const RButton: React.FC = () => {
+const TButton: React.FC = () => {
     return(
     <div style={{ marginTop: "20px", marginLeft: "20px", display: "flex" }}>
-    <button className={"RButton"}>
+    <button className={"TButton"}>
       <a
-        href="/JeremyPoulin-ResumeSoftware.pdf"
-        download="JeremyPoulin-ResumeSoftware.pdf"
-        className={"RButton"}>
-        software resume
+        href="/pages/projects.tsx"
+        className={"TButton"}>
+        hardware resume
       </a>
     </button>
     </div>)
 }
 
-export default RButton 
+export default TButton

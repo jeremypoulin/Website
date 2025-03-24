@@ -1,6 +1,8 @@
 import React, {useState, useEffect} from "react";
 import TypeWriter from "../components/Typewriter";
 import RButton from "../components/RButton";
+import PButton from "../components/PButton";
+import TButton from "../components/TButton";
 import "./home.css";
 import Pixel from "../components/pixel"
 
@@ -16,10 +18,11 @@ const Home: React.FC = () => {
         return () => clearTimeout(timer);
       }, []);
     return (<div className="home-container">
+        <PButton></PButton>
         <RButton></RButton>
         <div className="centre-container">
         {showTypewriter && (
-        <h1 style={{ position: "absolute", display: "flex",justifyContent: "center", height: "100vh", marginTop: "250px", marginLeft: "20px", fontSize: "125px"}}><TypeWriter
+        <h1 style={{ position: "absolute", display: "flex",justifyContent: "center", height: "100vh", marginTop: "150px", marginLeft: "20px", fontSize: "125px"}}><TypeWriter
             words={["hi!", "my name is jeremy"]}
             cursor
             cursorStyle

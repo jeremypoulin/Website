@@ -13,18 +13,18 @@ interface Properties {
     textcolour: string;
 }
 
-const RButton: React.FC = () => {
+const PButton: React.FC = () => {
     return(
     <div style={{ marginTop: "20px", marginLeft: "20px", display: "flex" }}>
     <button className={"RButton"}>
       <a
-        href="/JeremyPoulin-ResumeSoftware.pdf"
-        download="JeremyPoulin-ResumeSoftware.pdf"
+        href="/JeremyPoulin-ResumeHardware.pdf"
+        download="JeremyPoulin-ResumeHardware.pdf"
         className={"RButton"}>
-        software resume
+        hardware resume
       </a>
     </button>
     </div>)
 }
 
-export default RButton 
+export default PButton 
