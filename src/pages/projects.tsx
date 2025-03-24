@@ -27,8 +27,11 @@ const Projects: React.FC = () => {
                 iconStyle={{ background: 'rgb(167, 51, 74)', color: '#fff' }}
                 icon={<img src={"softwareicon_processed.png"} style={{display: "flex", justifyContent: "center", width: "100%", height:"100%"}}/>}
             >   <div style={{display: "flex"}}>
-                <FullScreenViewer defaultZoom={100} img={"turntablehs.png"} width="45%" height="45%"/>
-                {<FullScreenViewer defaultZoom={100} img={"turntablepaschem.png"} width="56%" height="56%"style={{marginLeft: "10px"}}/>}
+                <div style={{display: "flex", flexDirection: "column"}}>
+                <FullScreenViewer defaultZoom={100} img={"tunrtabletaa.png"} width="85%" height="85%"/>
+                <FullScreenViewer defaultZoom={100} img={"turntabledesign.jpg"} width="85%" height="85%"/>
+                </div>
+                {<FullScreenViewer defaultZoom={100} img={"phonopreampschem.png"} width="56%" height="56%"style={{marginLeft: "10px"}}/>}
                 </div>
                 <h3 className="vertical-timeline-element-title"><a className={"link"} href={"https://www.github.com/jeremypoulin/studius"}>Turntable Design</a></h3>
                 <h4 className="vertical-timeline-element-subtitle">Altium Designer, Solidworks, STM32</h4>
