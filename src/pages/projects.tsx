@@ -3,7 +3,7 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 import 'react-vertical-timeline-component/style.min.css';
 import "../components/link.css";
 import TypeWriter from "../components/Typewriter";
-import { FlatTree } from "framer-motion";
+import { color, FlatTree } from "framer-motion";
 import 'react-iv-viewer/dist/react-iv-viewer.css';
 import { ImageViewer, FullScreenViewer } from 'react-iv-viewer';
 import Image from 'rc-image';
@@ -31,10 +31,11 @@ const Projects: React.FC = () => {
                 icon={<img src={"softwareicon_processed.png"} style={{display: "flex", justifyContent: "center", width: "100%", height:"100%"}}/>}
             >   <div style={{display: "flex"}}>
                 <div style={{display: "flex", flexDirection: "column"}}>
-                <Zoom><img src="tonearm.png" height="70%" width={"70%"}/></Zoom>
-                <Zoom><img src="Turntabledesign.jpg" style={{marginTop: "-10px"}} height="70%" width={"70%"}/></Zoom>
+                <FullScreenViewer defaultZoom={100} img={"tonearm.png"} width="70%" height="70%"/>
+                <FullScreenViewer defaultZoom={100} img={"Turntabledesign.jpg"} width="70%" height="70%"/>
                 </div>
-                <Zoom><img src={"PhonoPreampSchem.png"} style={{marginLeft: "-100px", marginTop: "20px"}} width="150%"/></Zoom>
+                <div style={{marginLeft: "-100px"}}>
+                {<FullScreenViewer defaultZoom={100} img={"PhonoPreampSchemCropped.png"} width="110%" height="101%"style={{}}/>}</div>
                 </div>
                 <h3 className="vertical-timeline-element-title"><a className={"link"} href={"https://www.github.com/jeremypoulin/studius"}>Turntable Design</a></h3>
                 <h4 className="vertical-timeline-element-subtitle">Altium Designer, Solidworks, STM32</h4>
