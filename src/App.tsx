@@ -13,8 +13,8 @@ import "./pixels.css";
 
 const App = () => {
   return (
-    <div className={"pixels"}>
-    <div className={"falling-pixels"}></div>
+
+
     <Router>
       <Nav/>
       <Routes>
@@ -24,7 +24,6 @@ const App = () => {
         <Route path="/connect" element={<Contact/>} />
       </Routes>
     </Router>
-    </div>
   );
 };
 
