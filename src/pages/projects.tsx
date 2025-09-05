@@ -26,6 +26,44 @@ const Projects: React.FC = () => {
                 className="vertical-timeline-element--work"
                 contentStyle={{borderWidth: "3px", borderColor: "rgb(167, 51, 74)", background: '#fff', color: 'rgb(167, 51, 74)' }}
                 contentArrowStyle={{ borderRight: '7px solid  #fff' }}
+                date="May 2025 - Jul 2025"
+                iconStyle={{ background: 'rgb(167, 51, 74)', color: '#fff' }}
+                icon={<img src={"softwareicon_processed.png"} style={{display: "flex", justifyContent: "center", width: "100%", height:"100%"}}/>}
+            >   <div style={{display: "flex"}}>
+                <div style={{display: "flex", flexDirection: "column"}}>
+                <FullScreenViewer defaultZoom={100} img={"BMSAFEICSCHEM.png"} width="55%" height="55%"/>
+                <FullScreenViewer defaultZoom={100} img={"MSXVIARCH.png"} width="55%" height="55%"/>
+                </div>
+                <div style={{marginLeft: "-300px"}}>
+                <FullScreenViewer defaultZoom={100} img={"BMSAFE3D.png"} width="115%" height="100%"/></div>
+                </div>
+                <h3 className="vertical-timeline-element-title"><a className={"link"} href={"https://www.github.com/jeremypoulin/msxvi-bms-afe"}>Analog Front End Design</a></h3>
+                <h4 className="vertical-timeline-element-subtitle">Altium Designer</h4>
+                <p>
+                    - Complete research and development of a new AFE for the BMS system of Midnight Sun's 2026 Solar Vehicle <br></br> - Planning and visualization of the 2026 solar vehicle's electrical architecture <br></br> - Click on the title for full design document
+                </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                contentStyle={{borderWidth: "3px", borderColor: "rgb(167, 51, 74)", background: '#fff', color: 'rgb(167, 51, 74)' }}
+                contentArrowStyle={{ borderRight: '7px solid  #fff' }}
+                date="May 2025 - Jul 2025"
+                iconStyle={{ background: 'rgb(167, 51, 74)', color: '#fff' }}
+                icon={<img src={"softwareicon_processed.png"} style={{display: "flex", justifyContent: "center", width: "100%", height:"100%"}}/>} >
+                <div style={{display: "flex", flexDirection: "column"}}>
+                <FullScreenViewer defaultZoom={100} img={"REGTESTSCHEM.png"} width="100%" height="100%"/>
+                <FullScreenViewer defaultZoom={100} img={"REGTEST3D.png"} width="100%" height="100%"style={{marginTop: "10px"}}/>
+                </div>
+                <h3 className="vertical-timeline-element-title"><a className={"link"} href={"https://www.github.com/jeremypoulin/msxvi-bms-afe"}>AFE Buck Regulator Test Board</a></h3>
+                <h4 className="vertical-timeline-element-subtitle">Altium Designer</h4>
+                <p>
+                    - Research and development of an intuitive test board for the chosen buck regulator IC on the AFE shown above <br></br> - Implemented jumper pins and DNP pads to enable the simulation of crucial test environments
+                </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                contentStyle={{borderWidth: "3px", borderColor: "rgb(167, 51, 74)", background: '#fff', color: 'rgb(167, 51, 74)' }}
+                contentArrowStyle={{ borderRight: '7px solid  #fff' }}
                 date="Jan 2025 - Current"
                 iconStyle={{ background: 'rgb(167, 51, 74)', color: '#fff' }}
                 icon={<img src={"softwareicon_processed.png"} style={{display: "flex", justifyContent: "center", width: "100%", height:"100%"}}/>}
