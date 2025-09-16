@@ -24,10 +24,10 @@ const Projects: React.FC = () => {
             <VerticalTimeline>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                contentStyle={{borderWidth: "3px", borderColor: "rgb(167, 51, 74)", background: '#fff', color: 'rgb(167, 51, 74)' }}
+                contentStyle={{borderWidth: "3px", borderColor: "rgb(122, 130, 14)", background: '#fff', color: 'rgb(122, 130, 14)' }}
                 contentArrowStyle={{ borderRight: '7px solid  #fff' }}
                 date="May 2025 - Jul 2025"
-                iconStyle={{ background: 'rgb(167, 51, 74)', color: '#fff' }}
+                iconStyle={{ background: 'rgb(122, 130, 14)', color: '#fff' }}
                 icon={<img src={"softwareicon_processed.png"} style={{display: "flex", justifyContent: "center", width: "100%", height:"100%"}}/>}
             >   <div style={{display: "flex"}}>
                 <div style={{display: "flex", flexDirection: "column"}}>
@@ -45,10 +45,10 @@ const Projects: React.FC = () => {
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                contentStyle={{borderWidth: "3px", borderColor: "rgb(167, 51, 74)", background: '#fff', color: 'rgb(167, 51, 74)' }}
+                contentStyle={{borderWidth: "3px", borderColor: "rgb(200, 134, 46)", background: '#fff', color: 'rgb(200, 134, 46)' }}
                 contentArrowStyle={{ borderRight: '7px solid  #fff' }}
-                date="May 2025 - Jul 2025"
-                iconStyle={{ background: 'rgb(167, 51, 74)', color: '#fff' }}
+                date="Jun 2025"
+                iconStyle={{ background: 'rgb(200, 134, 46)', color: '#fff' }}
                 icon={<img src={"softwareicon_processed.png"} style={{display: "flex", justifyContent: "center", width: "100%", height:"100%"}}/>} >
                 <div style={{display: "flex", flexDirection: "column"}}>
                 <FullScreenViewer defaultZoom={100} img={"REGTESTSCHEM.png"} width="100%" height="100%"/>
@@ -62,10 +62,10 @@ const Projects: React.FC = () => {
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                contentStyle={{borderWidth: "3px", borderColor: "rgb(167, 51, 74)", background: '#fff', color: 'rgb(167, 51, 74)' }}
+                contentStyle={{borderWidth: "3px", borderColor: "rgb(216, 86, 46)", background: '#fff', color: 'rgb(216, 86, 46)' }}
                 contentArrowStyle={{ borderRight: '7px solid  #fff' }}
                 date="Jan 2025 - Current"
-                iconStyle={{ background: 'rgb(167, 51, 74)', color: '#fff' }}
+                iconStyle={{ background: 'rgb(216, 86, 46)', color: '#fff' }}
                 icon={<img src={"softwareicon_processed.png"} style={{display: "flex", justifyContent: "center", width: "100%", height:"100%"}}/>}
             >   <div style={{display: "flex"}}>
                 <div style={{display: "flex", flexDirection: "column"}}>
@@ -83,10 +83,10 @@ const Projects: React.FC = () => {
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                contentStyle={{borderWidth: "3px", borderColor: "rgb(167, 51, 74)", background: '#fff', color: 'rgb(167, 51, 74)' }}
+                contentStyle={{borderWidth: "3px", borderColor: "rgb(226, 11, 46)", background: '#fff', color: 'rgb(226, 11, 46)' }}
                 contentArrowStyle={{ borderRight: '7px solid  #fff' }}
                 date="Jan 2025 - Current"
-                iconStyle={{ background: 'rgb(167, 51, 74)', color: '#fff' }}
+                iconStyle={{ background: 'rgb(226, 11, 46)', color: '#fff' }}
                 icon={<img src={"softwareicon_processed.png"} style={{display: "flex", justifyContent: "center", width: "100%", height:"100%"}}/>}
             >   <div style={{display: "flex"}}>
                 <FullScreenViewer defaultZoom={100} img={"studiuslogin.png"} width="45%" height="45%"/>

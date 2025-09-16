@@ -18,10 +18,10 @@ const PButton: React.FC = () => {
     <div style={{ marginTop: "20px", marginLeft: "20px", display: "flex" }}>
     <button className={"RButton"}>
       <a
-        href="/JeremyPoulin-ResumeHardware.pdf"
-        download="JeremyPoulin-ResumeHardware.pdf"
+        href="/JeremyPoulinResume.pdf"
+        download="JeremyPoulinResume.pdf"
         className={"RButton"}>
-        hardware resume
+        resume
       </a>
     </button>
     </div>)
