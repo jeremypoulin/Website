@@ -19,7 +19,6 @@ const Home: React.FC = () => {
       }, []);
     return (<div className="home-container">
         <PButton></PButton>
-        <RButton></RButton>
         <div className="centre-container">
         {showTypewriter && (
         <h1 style={{ position: "absolute", display: "flex",justifyContent: "center", height: "100vh", marginTop: "150px", marginLeft: "20px", fontSize: "125px"}}><TypeWriter
